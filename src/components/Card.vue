@@ -25,7 +25,7 @@ defineProps({
     <p class="mt-2 mb-4">
       {{ description }}
     </p>
-    <a
+    <router-link
       href="jobs.html"
       :class="[
         'inline-block text-white rounded-lg px-4 py-2',
@@ -34,6 +34,6 @@ defineProps({
       ]"
     >
       {{ additional }}
-    </a>
+    </router-link>
   </div>
 </template>
